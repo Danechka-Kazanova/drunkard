@@ -8,7 +8,7 @@ class Card:
               "4", "5", "6", "7",
               "8", "9", "10",
               "валета", "даму",
-              "короля", "тузы"]
+              "короля", "туза"]
     
     def __init__(self, v, s):
         """suit и value - целые числа"""
@@ -36,7 +36,7 @@ class Card:
         return False
     
     def __repr__(self):
-        v = self.values[self.value] + " of " \
+        v = self.values[self.value] + " " \
         + self. suits[self.suit]
         return v
     

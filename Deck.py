@@ -14,3 +14,7 @@ class Deck:
         if len(self.cards) == 0:
             return
         return self.cards.pop()
+    
+deck = Deck()
+for card in deck.cards:
+    print(card)
