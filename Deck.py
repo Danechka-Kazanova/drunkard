@@ -15,6 +15,6 @@ class Deck:
             return
         return self.cards.pop()
     
-deck = Deck()
-for card in deck.cards:
-    print(card)
+#deck = Deck()
+#for card in deck.cards:
+#    print(card)

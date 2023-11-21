@@ -40,10 +40,10 @@ class Card:
         + self. suits[self.suit]
         return v
     
-card1 = Card(10, 2)
-card2 = Card(11, 3)
-print(card1 < card2)
-print(card1 > card2)
+#card1 = Card(10, 2)
+#card2 = Card(11, 3)
+#print(card1 < card2)
+#print(card1 > card2)
 
-card = Card(3, 2)
-print(card)
+#card = Card(3, 2)
+#print(card)
